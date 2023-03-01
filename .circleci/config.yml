@@ -3,9 +3,9 @@ jobs:
   build:
     docker:
       - image: alpine
-        auth:
-          username: docker_username
-          password: docker_password
+        # auth:
+        #   username: docker_username
+        #   password: docker_password
     steps:
       - run:
           name: The First Step
